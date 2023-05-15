@@ -2,7 +2,7 @@ MDB5
 Version: FREE 6.2.0
 
 Documentation:
-https://mdbootstrap.com/docs/standard/
+https://www.linkedin.com/in/vimantha-dilshan-6b64501b6
 
 Contact:
-office@mdbootstrap.com
+vimantha.0323@gmail.com
