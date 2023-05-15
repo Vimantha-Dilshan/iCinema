@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Movies</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/logo.png" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Start your project here-->
+    <div class="container-fluid">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="
+    background: hsla(0, 0%, 16%, 0.55);
+    backdrop-filter: blur(80px);
+    ">
+            <!-- Container wrapper -->
+            <div class="container-fluid">
+                <!-- Toggle button -->
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Navbar brand -->
+                    <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                        <img src="img/logo.png" height="30" alt="Logo" loading="lazy" />
+                    </a>
+                    <!-- Left links -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-house"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="movie-index.html">Browse</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Trending</a>
+                        </li>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                Movies
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li>
+                                    <a class="dropdown-item" href="#">Action</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Adventure</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Comedy</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Crime</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Drama</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Horror</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Mystery</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Musical</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Reality</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Romance</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Sci-fi</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Sport</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Thriller</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                TV Series
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li>
+                                    <a class="dropdown-item" href="#">Action</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Adventure</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Comedy</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Crime</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Drama</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Horror</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Mystery</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Musical</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Reality</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Romance</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Sci-fi</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Sport</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Thriller</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                FAQ
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li>
+                                    <a class="dropdown-item" href="#">How to download</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">How to skip ads</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                Members Arena
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li>
+                                    <a class="dropdown-item" href="#">Sign in</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Join as admin</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Left links -->
+                </div>
+                <!-- Collapsible wrapper -->
+
+                <!-- Right elements -->
+                <div class="d-flex align-items-center">
+                    <!-- Search -->
+                    <div class="input-group">
+                        <div class="form-outline">
+                            <input type="search" id="form1" class="form-control form-control-sm" />
+                            <label class="form-label" for="form1">Search</label>
+                        </div>
+                        <button type="button" class="btn btn-success">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+
+                </div>
+                <!-- Right elements -->
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-sm-8">
+                <div class="card  ">
+                    <h3 class="card-header text-right text-secondary inside-cover-text">Ant-Man and the Wasp:
+                        Quantumania (2023)</h3>
+
+                    <div class="card-body">
+                        <h7 class="movie-card-category text-secondary text-uppercase">
+                            2023 / ACTION / COMEDY / ADVENTURE / SCI-FI</h7> <br>
+                        <h7 class="movie-card-info text-success text-uppercase">Available in:</h7> <br>
+                        <span class="badge badge-dark text-secondary">720p Blu-Ray</span> <span
+                            class="badge badge-dark text-secondary">1080p Blu-Ray</span>
+                        <span class="badge badge-dark text-secondary">720p WEB-Rip</span> <span
+                            class="badge badge-dark text-secondary">1080p WEB-Rip</span>
+                        <br>
+                        <small class="text-muted"><small>WEB: same quality as BluRay</small></small>
+                        <br>
+                        <br>
+
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-hover table-sm table-borderless">
+                                        <tbody>
+                                            <tr>
+                                                <td class="max-width-row">💚</td>
+                                                <td class="text-success">217</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="max-width-row">🍀</td>
+                                                <td class="text-success">47%</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="max-width-row">🍿</td>
+                                                <td class="text-success">83%</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="max-width-row" style="color:yellow">IMDB</td>
+                                                <td class="text-success"><b>6.2</b><small><small
+                                                            class="text-secondary">/10</small></small></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-8">
+                                <h5>Download Servers</h5>
+                                <div class="row">
+                                    <div class="col-sm-3 py-2">
+                                        <button type="button" class="btn btn-success btn-sm"><small>720p
+                                                Blu-Ray</small></button>
+                                    </div>
+                                    <div class="col-sm-3 py-2">
+                                        <button type="button" class="btn btn-success btn-sm"><small>1080p
+                                                Blu-Ray</small></button>
+                                    </div>
+                                    <div class="col-sm-3 py-2">
+                                        <button type="button" class="btn btn-success btn-sm"><small>720p
+                                                WEB-Rip</small></button>
+                                    </div>
+                                    <div class="col-sm-3 py-2">
+                                        <button type="button" class="btn btn-success btn-sm"><small>1080p
+                                                WEB-Rip</small></button>
+                                    </div>
+                                    <div class="col-sm-3 py-2">
+                                        <button type="button"
+                                            class="btn btn-outline-success btn-sm"><small>Torrent</small></button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <hr>
+                        <h5 class="text-white">Plot Summary</h5>
+                        <small class="movie-card-text">Scott Lang and Hope Van Dyne, along with Hank Pym and Janet Van
+                            Dyne, explore the Quantum Realm, where they interact with strange creatures and embark on an
+                            adventure that goes beyond the limits of what they thought was possible. When Scott Lang and
+                            Hope van Dyne, along with Hope's parents, Hank Pym and Janet van Dyne, and Scott's daughter,
+                            Cassie, are accidentally sent to the Quantum Realm, they soon find themselves exploring the
+                            Realm, interacting with strange new creatures—wellsnoah-89768</small>
+                        <hr>
+                        <h5 class="text-white">Top Cast</h5>
+                        <!-- Carousel wrapper -->
+                        <div id="carouselMultiItemExample" class="carousel slide carousel-dark text-center"
+                            data-mdb-ride="carousel">
+                            <!-- Controls -->
+                            <div class="d-flex justify-content-center">
+                                <button class="carousel-control-prev position-relative" type="button"
+                                    data-mdb-target="#carouselMultiItemExample" data-mdb-slide="prev">
+                                    <span class="carousel-control-prev-icon text-secondary" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next position-relative" type="button"
+                                    data-mdb-target="#carouselMultiItemExample" data-mdb-slide="next">
+                                    <span class="carousel-control-next-icon text-secondary" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <!-- Inner -->
+                            <div class="carousel-inner">
+                                <!-- Single item -->
+                                <div class="carousel-item active">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-3 py-4">
+                                                <img class="rounded-circle shadow-1-strong mb-4"
+                                                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(6).webp"
+                                                    alt="avatar" style="width: 100px;" />
+                                                <h5 class="">Katy M. O'Brian</h5>
+                                                <small>as Jentorra</small>
+                                            </div>
+
+                                            <div class="col-lg-3 d-none d-lg-block py-4">
+                                                <img class="rounded-circle shadow-1-strong mb-4"
+                                                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(8).webp"
+                                                    alt="avatar" style="width: 100px;" />
+                                                <h5 class="">Kathryn Newton</h5>
+                                                <small>as Cassie Lang</small>
+                                            </div>
+
+                                            <div class="col-lg-3 d-none d-lg-block py-4">
+                                                <img class="rounded-circle shadow-1-strong mb-4"
+                                                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(7).webp"
+                                                    alt="avatar" style="width: 100px;" />
+                                                <h5 class="">Michelle Pfeiffer</h5>
+                                                <small>as Janet Van Dyne</small>
+                                            </div>
+
+                                            <div class="col-lg-3 d-none d-lg-block py-4">
+                                                <img class="rounded-circle shadow-1-strong mb-4"
+                                                    src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(7).webp"
+                                                    alt="avatar" style="width: 100px;" />
+                                                <h5 class="">Jonathan Majors</h5>
+                                                <small>as Kang The Conqueror</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Inner -->
+                        </div>
+                        <!-- Carousel wrapper -->
+
+                        <br>
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="trailer-video text-center container">
+                                    <iframe class="responsive-iframe" src="https://www.youtube.com/embed/5WfTEZJnv_8" width="100%" height="100%" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card  ">
+                    <div class="card-body">
+                        <div class="cover">
+                            <img src="img/covers/inside/amtwqm_family_payoff2_1-sht_v4_lg.jpg" alt=""
+                                class="img-fluid inside-cover">
+                        </div>
+                        <hr>
+
+                        <h5 class="text-white">Similar Movies</h5>
+                        <div class="row">
+
+                            <div class="col-sm-4">
+                                <div class="bg-image hover-overlay">
+                                    <img src="img/covers/inside/end-game.jpg" class="w-100" />
+                                    <div class="mask img-fluid" style="
+                                        background: linear-gradient(45deg,hsla(208, 88%, 36%, 0.5),hsla(144, 88%, 36%, 0.5) 100%);
+                                        backdrop-filter: blur(1px);
+                                        color: white;
+                                        text-align: center;
+                                        font-size: 12px;
+                                        ">
+                                        Avengers : Endgame (2019)
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="bg-image hover-overlay">
+                                    <img src="img/covers/inside/infinity-war.jpg" class="w-100" />
+                                    <div class="mask img-fluid" style="
+                                        background: linear-gradient(45deg,hsla(208, 88%, 36%, 0.5),hsla(144, 88%, 36%, 0.5) 100%);
+                                        backdrop-filter: blur(1px);
+                                        color: white;
+                                        text-align: center;
+                                        font-size: 12px;
+                                        ">
+                                        Avengers : Infinity War (2018)
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="bg-image hover-overlay">
+                                    <img src="img/covers/inside/age-of-ultron.jpg" class="w-100" />
+                                    <div class="mask img-fluid" style="
+                                        background: linear-gradient(45deg,hsla(208, 88%, 36%, 0.5),hsla(144, 88%, 36%, 0.5) 100%);
+                                        backdrop-filter: blur(1px);
+                                        color: white;
+                                        text-align: center;
+                                        font-size: 12px;
+                                        ">
+                                        Avengers : Age of Ultron (2015)
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <!-- Footer -->
+    <footer class="bg-footer text-center text-white fixed-bottom">
+        <!-- Grid container -->
+        <div class="container p-2 pb-0">
+
+            <!-- Section: Social media -->
+            <section class="mb-1">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1 btn-sm" href="#!" role="button"><i
+                        class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1 btn-sm" href="#!" role="button"><i
+                        class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1 btn-sm" href="#!" role="button"><i
+                        class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1 btn-sm" href="#!" role="button"><i
+                        class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1 btn-sm" href="#!" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
+
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1 btn-sm" href="#!" role="button"><i
+                        class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <small class="text-center text-muted">
+            <small> © 2023 Copyright:</small>
+            <a class="text-dark" href="#"><img src="img/dmca-badge-w100-5x1-10.png" alt=""></a>
+        </small>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+</body>
+
+</html>

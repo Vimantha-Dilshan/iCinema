@@ -1,0 +1,128 @@
+@media (max-width: 767.98px) {
+    .border-sm-start-none {
+        border-left: none !important;
+    }
+}
+
+* {
+    font-family: -apple-system;
+}
+
+body {
+    background-color: black;
+}
+
+/* NAV BAR */
+.nav-link:focus,
+.nav-link:hover {
+    color: #14A44D;
+}
+
+.nav-link {
+    font-size: 14px;
+    color: white;
+}
+
+.form-label {
+    color: #A9A9A9 !important;
+}
+
+.dropdown-menu {
+    background-color: hsla(0, 0%, 0%, 0.50);
+    backdrop-filter: blur(80px);
+    color: white;
+    font-size: 12px;
+}
+
+.dropdown-menu:hover {
+    background-color: hsla(0, 0%, 0%, 0.657);
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: hsla(144, 88%, 36%, 0.216) !important;
+    color: white;
+}
+
+/* NAV BAR */
+
+
+/* CARDS */
+.card {
+    background-color: hsla(225, 62%, 5%, 0.748) !important;
+    backdrop-filter: blur(100px);
+    border-radius: 13px;
+}
+
+.card-header {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.hover-overlay .mask {
+    background-color: red;
+}
+
+.movie-card-info {
+    font-size: 12px;
+}
+
+.movie-card-category {
+    font-size: 12px;
+}
+
+.movie-card-text {
+    text-align: justify !important;
+}
+
+.img-fluid {
+    height: 100%;
+}
+
+/* CARDS */
+
+
+
+/* ALERTS */
+.alert-green {
+    background-color: hsla(144, 88%, 36%, 0.216) !important;
+    backdrop-filter: blur(80px);
+    font-size: 13px;
+    font-weight: 600;
+    color: wheat;
+}
+
+/* ALERTS */
+
+.btn-announce {
+    font-size: 8px !important;
+}
+
+
+.tv-series-banner-home {
+    border-radius: 15px;
+}
+
+.bg-footer {
+    background-color: hsla(225, 62%, 5%, 0.748) !important;
+    backdrop-filter: blur(80px);
+}
+
+.inside-cover {
+    border-radius: 15px;
+}
+
+.inside-cover-text {
+    font-size: 30px !important;
+    font-weight: 600;
+}
+
+.max-width-row {
+    max-width: 10%;
+    /* Adjust the desired maximum width */
+    width: 100%;
+}
